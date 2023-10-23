@@ -10,7 +10,7 @@ bootstrap_distribution() {
 			--architectures=${arch} \
 			--variant=minbase \
 			--components="main,contrib,non-free" \
-			--include="ca-certificates,libsystemd0,pardus-archive-keyring,systemd-sysv" \
+			--include="ca-certificates,pardus-archive-keyring" \
 			--format=tar \
 			"${dist_version}" \
 			"${ROOTFS_DIR}/pardus-$(translate_arch "$arch")-pd-${CURRENT_VERSION}.tar" \
