@@ -31,7 +31,7 @@ Here are the supported distributions (alias: name):
 * `fedora`: Fedora 37 (AArch64 only)
 * `manjaro-aarch64`: Manjaro AArch64
 * `opensuse`: OpenSUSE (Tumbleweed)
-* `pardus`: Pardus (yirmibir)
+* `pardus`: Pardus (yirmiuc)
 * `ubuntu`: Ubuntu (22.04)
 * `void`: Void Linux
 
