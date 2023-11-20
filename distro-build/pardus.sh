@@ -9,7 +9,7 @@ bootstrap_distribution() {
 		sudo mmdebstrap \
 			--architectures=${arch} \
 			--variant=minbase \
-			--components="main,contrib,non-free" \
+			--components="main,contrib,non-free,non-free-firmware" \
 			--include="ca-certificates,pardus-archive-keyring" \
 			--format=tar \
 			"${dist_version}" \
